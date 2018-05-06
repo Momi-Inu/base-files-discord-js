@@ -1,0 +1,29 @@
+{
+  "name": "mavbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.ts",
+  "scripts": {
+    "run": "node build/app.js",
+    "build-prod": "gulp build-prod",
+    "build": "gulp build-dev",
+    "start": "gulp build-dev && node build/app.js"
+  },
+  "keywords": [],
+  "author": "Momi",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "discord.js-commando": "^0.10.0",
+    "mongoose": "^5.0.17"
+  },
+  "devDependencies": {
+    "@types/gulp": "^4.0.5",
+    "@types/gulp-sourcemaps": "0.0.32",
+    "@types/mongoose": "^5.0.11",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-typescript": "^4.0.2",
+    "typescript": "^2.8.3"
+  }
+}

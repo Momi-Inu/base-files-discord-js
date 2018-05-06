@@ -1,0 +1,25 @@
+{
+    "env": {
+        "es6": true,
+        "node": true
+    },
+    "extends": "eslint:reccommended",
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 2017
+    },
+    "rules": {
+        "linebreak-style": [
+            "error",
+            "windows"
+        ],
+        "quotes": [
+            "single",
+            "error"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ]
+    }
+}
